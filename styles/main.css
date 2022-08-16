@@ -1,0 +1,40 @@
+.main{
+    
+    text-align: center;
+    border: solid;
+    border-color: rgb(155, 141, 230);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #54585b;
+    background-color: rgb(246, 246, 178);
+
+}
+.input{
+    margin: 15px;
+}
+.title{
+    font-size: 35px;
+    
+    color: rgb(60, 83, 231);
+   
+
+}
+.btn{
+    background-color: rgb(155, 141, 230);
+    padding: 10px;
+    border-radius: 15%;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: rgb(237, 163, 123);
+}
+.select{
+    padding: 10px;
+    cursor: pointer;
+}
+.input{
+    padding: 10px;
+}

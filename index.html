@@ -1,17 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <title>Ejercicio de apuestas</title>
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+    <!--GOOGLE FONTS FIN-->
+    <!------------------------------------------->
+    <!--ICONS-->
+    <script
+      src="https://kit.fontawesome.com/2d087d70b1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--ICONS FIN-->
+
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
+
   <body>
-    <main>
-      <h1>DADOS Y APUESTAS</h1>
+    <main class="main">
+      <h1 class="title">
+        <i class="fa-solid fa-dice"></i>
+        DADOS Y APUESTAS
+        <i class="fa-solid fa-dice"></i>
+      </h1>
       <h3>Introduce aquí tu jugada:</h3>
       <form class="form">
-        <select class="js_select" name="bet_number" id="bet_number">
+        <select class="select js_select" name="bet_number" id="bet_number">
           <option value="select">Qué número apuestas del 1 al 6</option>
           <option value="1">1</option>
           <option value="2">2</option>
@@ -22,11 +45,11 @@
         </select>
         <input
           type="text"
-          class="js_amount"
+          class="input js_amount"
           name="amount"
           placeholder="¿Cuánto apuestas?"
         />
-        <button class="btn_play">Jugar</button>
+        <button class="btn play">Jugar</button>
       </form>
 
       <div>
@@ -37,5 +60,6 @@
         <p>Saldo: 50</p>
       </div>
     </main>
+    <script type="text/javascript" src="./JS/main.js"></script>
   </body>
 </html>
