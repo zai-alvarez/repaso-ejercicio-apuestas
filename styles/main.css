@@ -38,3 +38,13 @@
 .input{
     padding: 10px;
 }
+.hidden{
+display: none;
+}
+.restart{
+    background-color: rgb(155, 141, 230);
+    padding: 10px;
+    border-radius: 1S5%;
+    font-size: 15px;
+    cursor: pointer;
+}
